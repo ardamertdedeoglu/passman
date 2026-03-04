@@ -375,8 +375,8 @@ Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için [LICENSE](LIC
 
 Sorularınız veya önerileriniz için:
 
-- E-posta: info@passman.dev
-- GitHub: [github.com/passman](https://github.com/passman)
+- E-posta: ardamertsot@hotmail.com
+- GitHub: [github.com/ardamertdedeoglu](https://github.com/ardamertdedeoglu)
 
 ## 🙏 Teşekkürler
 
