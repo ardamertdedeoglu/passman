@@ -3,8 +3,7 @@ class AppConstants {
 
   // API
   static const String apiBaseUrl =
-      'https://pass-man.site/api'; // Android emulator
-  static const String apiBaseUrlDesktop = 'https://pass-man.site/api';
+      'https://pass-man.site/api'; // General URL
 
   // Argon2 parameters
   static const int argon2Memory = 65536; // 64 MB

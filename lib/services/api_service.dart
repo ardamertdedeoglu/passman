@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:io' show Platform;
 import 'package:http/http.dart' as http;
 import 'package:passman_frontend/core/constants.dart';
 
@@ -8,16 +7,7 @@ class ApiService {
   late final String _baseUrl;
 
   ApiService() {
-    // Use appropriate URL based on platform
-    try {
-      if (Platform.isAndroid) {
-        _baseUrl = AppConstants.apiBaseUrl;
-      } else {
-        _baseUrl = AppConstants.apiBaseUrlDesktop;
-      }
-    } catch (_) {
-      _baseUrl = AppConstants.apiBaseUrlDesktop;
-    }
+    _baseUrl = AppConstants.apiBaseUrl;
   }
 
   void setToken(String token) => _token = token;
